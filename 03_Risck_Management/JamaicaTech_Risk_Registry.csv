@@ -1,0 +1,5 @@
+ID,Asset/Process,Threat,Impact (1-5),Prob. (1-5),Score,Mitigation Strategy,Owner
+R-01,User Database,SQL Injection / Unauthorized Access,5,2,10,Parametrized queries + Firebase Security Rules.,Sasha-Kay Simpson
+R-02,Cloud Infrastructure,AWS Region Outage,4,2,8,Multi-region backup & failover config.,CTO
+R-03,Vendor (Zapier),Data breach at sub-processor,4,3,12,Annual SOC 2 Type II report review.,Procurement
+R-04,AI Dispatcher,Prompt Injection / Data Leakage,3,4,12,Input sanitization & PII scrubbing layer.,AI Lead
